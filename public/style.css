@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: #D5E1EF;
+    font-family: 'Almarai';
+  }
+
+.attribution {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+/* Vista desktop */
+  @media screen and (min-width:376px) {
+
+    .card {
+      text-align: center;
+      margin: auto;
+      margin-top: 4rem;
+      background-color: white;
+      width: 21rem;
+      height: 32rem;
+      border: none;
+      border-radius: 1.5rem;
+
+    }
+
+    .imagen {
+      text-align: center;
+      width: 90%;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    h1.textoHeader{
+      font-size: 1.4rem;
+      width: 85%;
+      margin: auto;
+      margin-top: 0.9rem;
+    }
+    p.parrafoHeader{
+      font-weight: 100;
+      color: grey;
+      width: 85%;
+      margin: auto;
+      font-size: 1.1rem;
+      margin-top: 0.7rem;
+    }
+
+    main{
+        padding-bottom: 7rem;
+    }
+
+  }
+/* vista celular */
+  @media screen and (min-width:200px) and (max-width:375px) {
+
+    .card {
+      text-align: center;
+      margin: auto;
+      margin-top: 4rem;
+      background-color: white;
+      width: 21rem;
+      height: 32rem;
+      border: none;
+      border-radius: 1.5rem;
+
+    }
+
+    .imagen {
+      text-align: center;
+      width: 90%;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+    h1.textoHeader{
+      font-size: 1.4rem;
+      width: 85%;
+      margin: auto;
+      margin-top: 0.9rem;
+    }
+    p.parrafoHeader{
+      font-weight: 100;
+      color: grey;
+      width: 85%;
+      margin: auto;
+      font-size: 1.1rem;
+      margin-top: 0.7rem;
+    }
+
+    footer{
+        margin-top: auto;
+        padding: 1rem 0;
+    }
+  }
